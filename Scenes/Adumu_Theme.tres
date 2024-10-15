@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://ci6vyum7dq5e1"]
+
+[ext_resource type="FontFile" uid="uid://bahkj585p1p37" path="res://Fonts/Adumu.ttf" id="1_tmcsh"]
+
+[resource]
+default_font = ExtResource("1_tmcsh")
+default_font_size = 20
