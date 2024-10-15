@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://wg8ktgwrhuuk"]
+[gd_scene load_steps=7 format=3 uid="uid://wg8ktgwrhuuk"]
 
 [ext_resource type="Script" path="res://Scenes/main_menu.gd" id="1_rbirp"]
 [ext_resource type="Texture2D" uid="uid://7xcxxkrtvqj4" path="res://Assets/World/SpaceBackground1.jpg" id="2_n2qqe"]
 [ext_resource type="Theme" uid="uid://ci6vyum7dq5e1" path="res://Scenes/Adumu_Theme.tres" id="2_qvoit"]
-[ext_resource type="PackedScene" uid="uid://bq3egut176msl" path="res://Scenes/options.tscn" id="2_vhep5"]
-[ext_resource type="Texture2D" uid="uid://ctstv3j2woble" path="res://Assets/Buttons/Pink.png" id="4_df2yo"]
+[ext_resource type="PackedScene" uid="uid://bq3egut176msl" path="res://Scenes/Menu/options.tscn" id="2_vhep5"]
+[ext_resource type="Texture2D" uid="uid://dmq6xeby1c7pq" path="res://Assets/Character/Pink.png" id="4_g5qls"]
+[ext_resource type="AudioStream" uid="uid://cmv3bvqftmjkh" path="res://Assets/Sounds/Dark Ambient 1.wav" id="5_harj3"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -24,63 +25,62 @@ texture = ExtResource("2_n2qqe")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2
-offset_left = 31.0
-offset_top = 36.0
-offset_right = 331.0
-offset_bottom = 236.0
+offset_left = 102.0
+offset_top = 14.0
+offset_right = 252.0
+offset_bottom = 244.0
 theme_override_constants/separation = 60
 
 [node name="Title" type="Label" parent="VBoxContainer"]
 layout_mode = 2
-text = "PinkDude"
+text = "     PinkDude"
 
-[node name="Margins" type="MarginContainer" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 119.0
-offset_top = 1.0
-offset_right = 477.0
-offset_bottom = 293.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/margin_left = 12
-theme_override_constants/margin_top = 2
-theme_override_constants/margin_right = 12
-theme_override_constants/margin_bottom = 2
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Margins"]
+[node name="PinkDude" type="TextureRect" parent="VBoxContainer"]
+texture_filter = 1
+custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
+theme = ExtResource("2_qvoit")
+texture = ExtResource("4_g5qls")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Margins/HBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(120, 2.08165e-12)
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 342.0
+offset_top = 30.0
+offset_right = 462.0
+offset_bottom = 242.0
+grow_vertical = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer"]
 custom_minimum_size = Vector2(120, 2.08165e-12)
 layout_mode = 2
 theme_override_constants/separation = 64
-alignment = 1
 
-[node name="BtnOptions" type="Button" parent="Margins/HBoxContainer/VBoxContainer"]
+[node name="BtnPlay" type="Button" parent="HBoxContainer/VBoxContainer2"]
+layout_mode = 2
+text = "Play"
+
+[node name="BtnOptions" type="Button" parent="HBoxContainer/VBoxContainer2"]
 custom_minimum_size = Vector2(2.08165e-12, 2.08165e-12)
 layout_mode = 2
-text = "
-"
-icon = ExtResource("4_df2yo")
+text = "Options"
 
-[node name="BtnExit" type="Button" parent="Margins/HBoxContainer/VBoxContainer"]
+[node name="BtnExit" type="Button" parent="HBoxContainer/VBoxContainer2"]
 layout_mode = 2
-text = "Exit
-"
-
-[node name="BtnPlay" type="Button" parent="Margins/HBoxContainer/VBoxContainer"]
-layout_mode = 2
-text = "Play
-"
-
-[node name="Options" parent="." instance=ExtResource("2_vhep5")]
-layout_mode = 1
-offset_left = 1.0
-offset_top = 1.0
-offset_right = 1.0
-offset_bottom = 1.0
+text = "Exit"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_harj3")
+autoplay = true
+
+[node name="Options" parent="." instance=ExtResource("2_vhep5")]
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 369.0
+offset_top = -2.0
+offset_right = 369.0
+offset_bottom = 278.0

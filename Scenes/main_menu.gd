@@ -2,11 +2,12 @@ extends Control
 class_name MainMenu
 
 #Instancio los botones para poder usarlos
-@onready var btn_play = $Margins/HBoxContainer/VBoxContainer/BtnPlay as Button
-@onready var btn_options = $Margins/HBoxContainer/VBoxContainer/BtnOptions as Button
+@onready var btn_play = $HBoxContainer/VBoxContainer2/BtnPlay as Button
+@onready var btn_options = $HBoxContainer/VBoxContainer2/BtnOptions
+@onready var btn_exit = $HBoxContainer/VBoxContainer2/BtnExit as Button
 @onready var options_menu = $Options as OptionsMenu
-@onready var margin_container = $Margins as MarginContainer
-@onready var btn_exit = $Margins/HBoxContainer/VBoxContainer/BtnExit as Button
+@onready var HboxContent = $HBoxContainer as HBoxContainer
+
 @onready var start = preload("res://Scenes/World/world.tscn")
 
 
@@ -19,7 +20,7 @@ func on_play_pressed() -> void:
 	get_tree().change_scene_to_packed(start)
 
 func on_options_pressed() -> void:
-	margin_container.visible = false
+	HboxContent.visible = false
 	options_menu.set_process(true)
 	options_menu.visible = true	
 
@@ -28,7 +29,7 @@ func on_exit_pressed() -> void:
 	get_tree().quit()
 	
 func on_exit_options_menu() -> void:
-	margin_container.visible = true
+	HboxContent.visible = true
 #	options_menu.visible = false
 
 func handle_connecting_signals() -> void:
