@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmq50xoa22cer"
-path="res://.godot/imported/Run (84x38).png-2c613568025d75462d244e3452fdba25.ctex"
+uid="uid://c1es64wac4um5"
+path="res://.godot/imported/OrangePlanet.png-968d7284897161fcadd1a2e24b264f3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Camaleon/Run (84x38).png"
-dest_files=["res://.godot/imported/Run (84x38).png-2c613568025d75462d244e3452fdba25.ctex"]
+source_file="res://Assets/Collected/OrangePlanet.png"
+dest_files=["res://.godot/imported/OrangePlanet.png-968d7284897161fcadd1a2e24b264f3a.ctex"]
 
 [params]
 

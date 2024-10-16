@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b67h63cw34fj3"
-path="res://.godot/imported/Idle (40x48).png-0004144aeb44d6f6ce7d6dbae7a7c397.ctex"
+uid="uid://b6y2e8yu61jpk"
+path="res://.godot/imported/Asteroid.png-4bb3acbbc7f058114540bdaa8adadc23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Chicken/Idle (40x48).png"
-dest_files=["res://.godot/imported/Idle (40x48).png-0004144aeb44d6f6ce7d6dbae7a7c397.ctex"]
+source_file="res://Assets/Enemies/Asteroid.png"
+dest_files=["res://.godot/imported/Asteroid.png-4bb3acbbc7f058114540bdaa8adadc23.ctex"]
 
 [params]
 

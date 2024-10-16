@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhomsercysi7c"
-path="res://.godot/imported/Ground (40x48).png-6530c2651499b2af616a2528034ef40d.ctex"
+uid="uid://mjq7y6m8gq1l"
+path="res://.godot/imported/BluePlanet.png-219e5ee76c11f3fc8e91da7647f227d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Chicken/Ground (40x48).png"
-dest_files=["res://.godot/imported/Ground (40x48).png-6530c2651499b2af616a2528034ef40d.ctex"]
+source_file="res://Assets/Collected/BluePlanet.png"
+dest_files=["res://.godot/imported/BluePlanet.png-219e5ee76c11f3fc8e91da7647f227d8.ctex"]
 
 [params]
 

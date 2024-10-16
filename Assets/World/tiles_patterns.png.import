@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cj4qt0q4chaxs"
-path="res://.godot/imported/Idle (84x38).png-b54c3d50912479bfd96592a457003617.ctex"
+uid="uid://bwu483kwe4r7c"
+path="res://.godot/imported/tiles_patterns.png-bd72f3871cb626e91585924051da6cd8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Camaleon/Idle (84x38).png"
-dest_files=["res://.godot/imported/Idle (84x38).png-b54c3d50912479bfd96592a457003617.ctex"]
+source_file="res://Assets/World/tiles_patterns.png"
+dest_files=["res://.godot/imported/tiles_patterns.png-bd72f3871cb626e91585924051da6cd8.ctex"]
 
 [params]
 

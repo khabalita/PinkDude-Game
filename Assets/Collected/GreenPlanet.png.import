@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://df322xh1263lc"
-path="res://.godot/imported/Hit (84x38).png-2402ff631ded0b4da93fed6e5483ab0b.ctex"
+uid="uid://cgufnp5nf26k1"
+path="res://.godot/imported/GreenPlanet.png-8756bd48dc49225adb23e77d92723c42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Camaleon/Hit (84x38).png"
-dest_files=["res://.godot/imported/Hit (84x38).png-2402ff631ded0b4da93fed6e5483ab0b.ctex"]
+source_file="res://Assets/Collected/GreenPlanet.png"
+dest_files=["res://.godot/imported/GreenPlanet.png-8756bd48dc49225adb23e77d92723c42.ctex"]
 
 [params]
 

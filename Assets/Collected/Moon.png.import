@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1cjoq2vg4hsk"
-path="res://.godot/imported/Hit (40x48).png-558571b4be0572e810dc2c6c7a1e5c23.ctex"
+uid="uid://dgfocajgbwpat"
+path="res://.godot/imported/Moon.png-c7eced45426985c7954d9af51c87d3c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Chicken/Hit (40x48).png"
-dest_files=["res://.godot/imported/Hit (40x48).png-558571b4be0572e810dc2c6c7a1e5c23.ctex"]
+source_file="res://Assets/Collected/Moon.png"
+dest_files=["res://.godot/imported/Moon.png-c7eced45426985c7954d9af51c87d3c0.ctex"]
 
 [params]
 

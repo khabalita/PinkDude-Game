@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://by5oet5a8caf"
-path="res://.godot/imported/Attack (84x38).png-cd950127296b70e4299d5ace5e13b15d.ctex"
+uid="uid://qx1321gtmxdp"
+path="res://.godot/imported/tileset_outlines.png-f69b0b1982f594026053964bc6b0351f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Enemies/Camaleon/Attack (84x38).png"
-dest_files=["res://.godot/imported/Attack (84x38).png-cd950127296b70e4299d5ace5e13b15d.ctex"]
+source_file="res://Assets/World/tileset_outlines.png"
+dest_files=["res://.godot/imported/tileset_outlines.png-f69b0b1982f594026053964bc6b0351f.ctex"]
 
 [params]
 
